@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* */
+.user-type {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column nowrap;
+}
+
+.upgrade a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #1F4674;
+    letter-spacing: 1px;
+    font-size: .9rem;
+}
+
+.upgrade a:hover{
+    font-weight: 600;
+}
+
+.error-msg{
+    background-color: #f5f4f4;
+    color: #6b0303;
+    border: 1px solid #7a0718;
+    border-radius: 8px;
+    margin-bottom: 1.2rem;
+}
+ 
